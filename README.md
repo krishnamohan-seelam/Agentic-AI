@@ -4,6 +4,9 @@ This repository contains a collection of Jupyter Notebook exercises and tutorial
 
 The exercises are located in the `Level_2` directory and cover various foundational to advanced concepts in Agentic AI:
 
+### Adding secrets in Google Colab
+![Adding Secrets](adding_secrets.png "Adding secrets in COLAB")
+
 ### LangChain Basics & Tooling
 * [**`2_1_instantiate_prebuilt_agent.ipynb`**](Level_2/2_1_instantiate_prebuilt_agent.ipynb): Demonstrates how to instantiate prebuilt LangChain agents that can utilize multiple external tools to answer questions.
 * [**`2_2_structured_output_tutorial.ipynb`**](Level_2/2_2_structured_output_tutorial.ipynb): Explains how to enforce structured outputs using LangChain and Pydantic to ensure the LLM returns consistent, typed data objects.
