@@ -1,0 +1,12 @@
+langchain
+langchain-openai
+langchain-mcp-adapters
+langgraph
+fastmcp
+python-dotenv
+openai  
+tavily-python
+deepagents
+langchain-community 
+langchain-core
+wikipedia

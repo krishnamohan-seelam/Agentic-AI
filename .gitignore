@@ -1,6 +1,5 @@
 # React specific ignores
 .agent
-Level_3
 scripts/scan_and_update_deps.py
 node_modules/
 build/

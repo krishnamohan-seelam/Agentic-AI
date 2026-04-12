@@ -2,11 +2,12 @@
 
 This repository contains a collection of Jupyter Notebook exercises and tutorials focused on building and working with Agentic AI systems. The materials primarily cover concepts using popular frameworks like **LangChain** and **LangGraph**, providing hands-on practice for creating resilient, tool-augmented, and graph-based AI agents. These tutorials are part of Agentic AI course by Sajal Sharma in partnership with O’Reilly
 
-The exercises are located in the `Level_2` directory and cover various foundational to advanced concepts in Agentic AI:
+The exercises are located in the `Level_2` and `Level_3` directories and cover various foundational to advanced concepts in Agentic AI:
 
 ### Adding secrets in Google Colab
 ![Adding Secrets](adding_secrets.png "Adding secrets in COLAB")
 
+## Level 2
 ### LangChain Basics & Tooling
 * [**`2_1_instantiate_prebuilt_agent.ipynb`**](Level_2/2_1_instantiate_prebuilt_agent.ipynb): Demonstrates how to instantiate prebuilt LangChain agents that can utilize multiple external tools to answer questions.
 * [**`2_2_structured_output_tutorial.ipynb`**](Level_2/2_2_structured_output_tutorial.ipynb): Explains how to enforce structured outputs using LangChain and Pydantic to ensure the LLM returns consistent, typed data objects.
@@ -33,6 +34,33 @@ The exercises are located in the `Level_2` directory and cover various foundatio
 * [**`2_16_create_test_cases.ipynb`**](Level_2/2_16_create_test_cases.ipynb): Focuses on practicing writing test cases for AI agent tools using the Arrange-Act-Assert pattern.
 * [**`2_17_performance_metrics.ipynb`**](Level_2/2_17_performance_metrics.ipynb): Teaches how to build a prompt strategy analyzer that tracks performance metrics across different prompting techniques.
 
+## Level 3
+### Advanced Agentic Patterns
+* [**`3_1_conditional_edges_tutorial.ipynb`**](Level_3/3_1_conditional_edges_tutorial.ipynb): Mastery of dynamic routing and conditional logic in LangGraph.
+* [**`3_2_custom_agentic_workflows_tutorial.ipynb`**](Level_3/3_2_custom_agentic_workflows_tutorial.ipynb): Building bespoke agentic state machines with custom transitions.
+* [**`3_6_construct_a_plan_and_execute_agent.ipynb`**](Level_3/3_6_construct_a_plan_and_execute_agent.ipynb): Implementing agents that plan complex tasks before execution.
+* [**`3_7_deep_agents.ipynb`**](Level_3/3_7_deep_agents.ipynb): Exploring advanced reasoning capabilities and specialized cognitive architectures.
+No tried in Colab, need to run in local machine
+* [**`3_9_reflection_pattern.ipynb`**](Level_3/3_9_reflection_pattern.ipynb): Building self-correcting agents using generator-reflector loops.
+
+### Debugging & Resiliency
+* [**`3_3_debug_execution.ipynb`**](Level_3/3_3_debug_execution.ipynb): Techniques for tracing, visualizing, and troubleshooting complex graph runs.
+* [**`3_8_implement_a_human_in_the_loop.ipynb`**](Level_3/3_8_implement_a_human_in_the_loop.ipynb): Implementing `interrupt()` and state inspection for human oversight.
+
+### Memory & RAG
+* [**`3_5_retrieval_system_embeddings_tutorial.ipynb`**](Level_3/3_5_retrieval_system_embeddings_tutorial.ipynb): Semantic retrieval and integrating external knowledge bases.
+* [**`3_10_conversation_threading.ipynb`**](Level_3/3_10_conversation_threading.ipynb): Managing multi-user, multi-session state persistence with checkpointers.
+* [**`3_11_semantic_memory.ipynb`**](Level_3/3_11_semantic_memory.ipynb): Implementation of persistent, cross-session memory using `InMemoryStore` and embeddings.
+
+### Deployment & Tooling
+* [**`3_4_tool_interoperability`**](Level_3/3_4_tool_interoperability/): Designing robust communication patterns between agents and external tools.  
+No Jupyter notebook capability in this folder
+
+* [**`3_12_deploying_agents_with_fastapi`**](Level_3/3_12_deploying_agents_with_fastapi/): Bridging the gap between agent notebooks and production REST APIs.
+
+No Jupyter notebook capability in this folder
+
+
 ## Getting Started
 
-To explore these concepts, navigate to the `Level_2` directory and open the `.ipynb` notebooks in Jupyter Notebook, VS Code, or Google Colab. Each notebook contains specific instructions and challenges for writing or completing the agent code.
+To explore these concepts, navigate to the `Level_2` or `Level_3` directories and open the `.ipynb` notebooks in Jupyter Notebook, VS Code, or Google Colab. Each notebook contains specific instructions and challenges for writing or completing the agent code.
